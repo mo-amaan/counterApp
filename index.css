@@ -1,0 +1,40 @@
+body {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
+  min-height: 100vh; /* Minimum height of 100% of the viewport height */
+  background: #18100c; /* background color */
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: #f1edea; /* text color */
+  margin: 0; /* Removes default margin */
+}
+
+.container {
+  background: #ddb4a1; /* primary color */
+  max-width: 80%;
+  border: 3px solid #8b4523; /* secondary color */
+  border-radius: 10px;
+  color: #18100c; /* Adjusting text color for contrast */
+  padding: 20px; /* Adds padding inside the container for spacing */
+}
+
+h1, h2, #save-el {
+  color: #18100c; /* Ensuring headings and bold elements are visible */
+}
+
+button {
+  border: 1px solid #8b4523; /* secondary color for border */
+  padding: 10px 0; /* Adjusts padding for top and bottom */
+  color: #18100c; /* text color for buttons */
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background: #e37b49; /* accent color as default button background */
+  cursor: pointer; /* Changes cursor to pointer on hover over buttons */
+}
+
+#increment-btn, #save-btn {
+  background: #e37b49; /* Using the accent color for consistency */
+}
